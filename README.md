@@ -8,4 +8,4 @@
 - 박지현
 - 장민
 
-*  Checking WSL
+* Checking WSL
