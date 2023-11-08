@@ -1,0 +1,2 @@
+FROM n
+COPY . /app
