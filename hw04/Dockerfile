@@ -1,2 +1,2 @@
-FROM n
-COPY . /app
+FROM tiangolo/uwsgi-nginx-flask
+COPY ./app /app
