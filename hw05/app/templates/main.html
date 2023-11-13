@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <form action="/result" method="POST">
+        <p><b>Name <input type='text' id='name' name='name' /></p>
+        <p>Student Number <input type='text' id='StudentNumber' name='StudentNumber' /></p>
+        <p>University <input type='text' id='University' name='University' /></p>
+        <p>Major <input type='text' id='Major' name='Major' /></p>
+        <p>Gender</p> 
+        <label><input type="radio" name="Gender" value="Male">Male</label> 
+        <label><input type="radio" name="Gender" value="Female">Female</label></p>
+        <p>Email <input type='text' id='Email' name='Email' />
+            <label for="sites">@</label>
+              <select name="sites" id="sites">
+                <option value="naver">naver.com</option>
+                <option value="gmail">gmail.com</option>
+                <option value="dgu">dongguk.edu</option>
+                <option value="daum">daum.net</option>
+                <option value="yahoo">yahoo.co.kr</option></p>
+        <p>Programming Languages</p>
+        <label><input type="checkbox" name="Languages" value="Python">Python</label>
+        <label><input type="checkbox" name="Languages" value="Java">Java</label>
+        <label><input type="checkbox" name="Languages" value="HTML">HTML</label>
+        <label><input type="checkbox" name="Languages" value="C++">C++</label>
+        <p><button type='submit' name='submit' value='submit'>submit</button></b></p>
+    </form>
+</body>
+</html>
