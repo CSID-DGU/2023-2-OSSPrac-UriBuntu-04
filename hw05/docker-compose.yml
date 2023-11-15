@@ -1,0 +1,5 @@
+version: '3.0'
+services:
+  nginix-app:
+    image: fairysch/uribuntu:2.0
+    build: .
