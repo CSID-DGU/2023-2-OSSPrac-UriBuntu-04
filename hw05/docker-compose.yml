@@ -1,5 +1,8 @@
-version: '3.0'
+version: '3'
+
 services:
-  nginix-app:
-    image: fairysch/uribuntu:2.0
+  app:
     build: .
+    image: jihyeonpark5/flask:3.0
+    ports:
+      - "5000:5000"
