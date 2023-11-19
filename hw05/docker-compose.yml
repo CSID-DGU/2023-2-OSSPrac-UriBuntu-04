@@ -5,4 +5,4 @@ services:
     build: .
     image: jihyeonpark5/flask:3.0
     ports:
-      - "5000:5000"
+    - "8000:8000"
